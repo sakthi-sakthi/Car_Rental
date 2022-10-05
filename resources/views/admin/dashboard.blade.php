@@ -19,7 +19,7 @@
         <div class="box">
           <div class="right-side">
             <div class="box-topic">Total Cars</div>
-            <div class="number">6</div>
+            <div class="number">5</div>
             <div class="indicator">
               <i class='bx bx-up-arrow-alt'></i>
               <span class="text"><a href="allcars" style="text-decoration:none;">See Details</span></a>
@@ -30,7 +30,7 @@
         <div class="box">
           <div class="right-side">
             <div class="box-topic">With Driver</div>
-            <div class="number">4</div>
+            <div class="number">3</div>
             <div class="indicator">
               <i class='bx bx-up-arrow-alt'></i>
               <span class="text"><a href="withdriver" style="text-decoration:none;">See Details</span></a>

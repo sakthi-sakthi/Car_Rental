@@ -150,7 +150,7 @@ class CarDetailController extends Controller
     public function destroy(CarDetail $car_details)
     {
         $car_details->delete();
-        return redirect(url('dashboard'));
+        return redirect()->back();
     }
 
         /**

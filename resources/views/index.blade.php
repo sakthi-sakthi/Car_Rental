@@ -49,7 +49,7 @@
           <div class="banner_content">
             <h1>Find the right car for you.</h1>
             <p>We have more than a thousand cars for you to choose. </p>
-            <a href="" class="btn">Read More <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a> </div>
+             </div>
         </div>
       </div>
     </div>
@@ -189,52 +189,7 @@
 
 
 <!--Testimonial -->
-<section class="section-padding testimonial-section parallex-bg">
-  <div class="container div_zindex">
-    <div class="section-header white-text text-center">
-      <h2>Our Satisfied <span>Customers</span></h2>
-    </div>
-    <div class="row">
-      <div id="testimonial-slider" class="owl-carousel owl-theme" style="opacity: 1; display: block;">
 
-
-        <div class="owl-wrapper-outer">
-        <div class="owl-wrapper" style="width: 2340px; left: 0px; display: block; transition: all 1000ms ease 0s; transform: translate3d(0px, 0px, 0px);">
-        <div class="owl-item" style="width: 585px;">
-        <div class="testimonial-m">
-          <div class="testimonial-img"> <img src="assets/images/cat-profile.png" alt=""> </div>
-          <div class="testimonial-content">
-            <div class="testimonial-heading">
-              <h5>Lokesh</h5>
-            <p>Test Test</p>
-          </div>
-          <div class="testimonial-heading">
-              <h5>Praveen</h5>
-            <p>Good Service</p>
-          </div>
-        </div>
-        </div>
-        </div>
-        <div class="owl-item" style="width: 585px;"><div class="testimonial-m">
-          <div class="testimonial-img"> <img src="assets/images/cat-profile.png" alt=""> </div>
-          <div class="testimonial-content">
-            <div class="testimonial-heading">
-              
-          </div>
-        </div>
-        </div></div></div></div>
-        
-
-        
-                
-       
-  
-      <div class="owl-controls clickable" style="display: none;"><div class="owl-pagination"><div class="owl-page active"><span class=""></span></div></div></div></div>
-    </div>
-  </div>
-  <!-- Dark Overlay-->
-  <div class="dark-overlay"></div>
-</section>
 <!-- /Testimonial--> 
 
 
