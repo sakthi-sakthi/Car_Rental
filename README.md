@@ -16,7 +16,7 @@ In DashBoard page the admin can login to the portal using admin details and he/s
 
 After that the admin can see the number of registered vehicles and especially the admin can see how many cars having "Withdriver" and "Withoutdriver". But admin also can't make any changes in the user's post,only he can remove the post from the portal only not editing the post details.
 
-![image](https://user-images.githubusercontent.com/110651198/193755421-3c3a9557-0d64-445b-8a52-ab64b5f18327.png)
+![image](https://user-images.githubusercontent.com/110651198/193984545-92eb7d3b-2ba6-4a42-9eaa-3fe5da81aacf.png)
 
 Admin User Name and Password is -> i) Username - sakthi@gmail.com
                                   ii) Password - sakthi@gmail.com
