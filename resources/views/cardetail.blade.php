@@ -70,7 +70,7 @@
  
                   <tbody>
 
-                  <p>Contact Number: {{$data->personnumber}}</p>
+                  <p>Contact Number:<a href="tel:{{$data->personnumber}}"> {{$data->personnumber}}</a></p>
                   <p>Shop Address: {{$data->address}}</p>
                   <p>city: {{$data->location}}</p>
                 </tbody>
