@@ -1,62 +1,25 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+#Car-Rental
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Project Name is Car Rental using CRUD opertaions .User can login through respective username and password credentials . If they don't have an account they can register using their details.
 
-## About Laravel
+DataBase name is rent_a _car , so user can create database in phpmyadmin and import the sql file in the system.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+After registering they enter in the car rental portal. Once they enter in the portal they can see the multiple options like "CarListing","MyPosts","Upload Cars". They can see many kind of car's here. They can choose what kind of car's they need.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+If any user can rent their car they can upload the car details and their personal details through this website,if they want to upload their car they can use "Upload Cars" and upload thier car details. After Uploading they can see the post in the "MyPost" page.The user can make any changes in thier own post like price,car model.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+If any user can need that particular car they can also registered and enter the portal. The user can see the car's list in the "CarListing" page.But the user can't make any changes for other's post.Incase of emergency the user can contact via skype and mobile number.The number is available in the header sections
 
-## Learning Laravel
+ To run the project, install composer , create project using commands, add db name in .env file. Then using php artisan serve command after you can get http://127.0.0.1:8000/ using this address to run it in the browser such as google , chrome , firefox , internet explorer.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+In DashBoard page the admin can login to the portal using admin details and he/she can see the Registered User's details in the table format. Dashboard name is Car Rental Portal.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+After that the admin can see the number of registered vehicles and especially the admin can see how many cars having "Withdriver" and "Withoutdriver". But admin also can't make any changes in the user's post,only he can remove the post from the portal only not editing the post details.
 
-## Laravel Sponsors
+![image](https://user-images.githubusercontent.com/110651198/193755421-3c3a9557-0d64-445b-8a52-ab64b5f18327.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Admin User Name and Password is -> i) Username - sakthi@gmail.com
+                                  ii) Password - sakthi@gmail.com
 
-### Premium Partners
+![image](https://user-images.githubusercontent.com/110651198/193755698-c048d48f-a132-49f9-8668-d71d77db4e9c.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
